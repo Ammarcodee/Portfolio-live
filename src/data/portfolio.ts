@@ -332,8 +332,8 @@ export const skillCategories: SkillCategory[] = [
  */
 export const skillEvidence: Record<string, string[]> = {
   Python: ['AI-Powered LMS', 'Snake Game (Pygame)', '100 Days of Code Bootcamp'],
-  Java: ['Quiz Game', 'BS Computer Science'],
-  'C++': ['C++ Tutorial Certification', 'BS Computer Science'],
+  Java: ['Quiz Game', 'BS Software Engineering'],
+  'C++': ['C++ Tutorial Certification', 'BS Software Engineering'],
   PHP: ['Car Rental Website (Laravel)'],
   Dart: ['Flutter Internship at Saturn Software House', 'Car Rental App', 'Weather App'],
   SQL: ['MySQL projects', 'Car Rental Website'],
@@ -405,7 +405,7 @@ export const seasons: Season[] = [
       {
         code: 'S01 E02',
         title: 'The Intermediate',
-        description: 'ICS at Punjab Group of Colleges, Sargodha — Mathematics, Physics, and Computer Science.',
+        description: 'ICS at Punjab Group of Colleges, Sargodha — Mathematics, Physics, and Software Engineering.',
         tags: ['ICS', 'Punjab Group of Colleges'],
         runtime: 'Completed',
         palette: violet,
@@ -414,14 +414,14 @@ export const seasons: Season[] = [
   },
   {
     number: 2,
-    title: 'Enter: Computer Science',
+    title: 'Enter: Software Engineering',
     period: 'Present',
-    synopsis: 'BS Computer Science at COMSATS University Islamabad, Wah Campus — deep diving into software engineering.',
+    synopsis: 'BS Software Engineering at COMSATS University Islamabad, Wah Campus — deep diving into software engineering.',
     episodes: [
       {
         code: 'S02 E01',
         title: 'The Engineer',
-        description: 'Bachelor of Science in Computer Science at COMSATS University Islamabad, Wah Campus.',
+        description: 'Bachelor of Science in Software Engineering at COMSATS University Islamabad, Wah Campus.',
         tags: ['BS CS', 'COMSATS', 'Wah Campus'],
         runtime: 'In Progress',
         palette: ocean,
@@ -531,9 +531,9 @@ export type IntroSlide = { kicker: string; title: string; lines: string[]; chips
 export const introSlides: IntroSlide[] = [
   {
     kicker: 'Education',
-    title: 'BS · Computer Science',
+    title: 'BS · Software Engineering',
     lines: ['COMSATS University Islamabad, Wah Campus', 'Currently enrolled'],
-    chips: ['BS(CS)'],
+    chips: ['BS(SE)'],
   },
   {
     kicker: 'Skills',
